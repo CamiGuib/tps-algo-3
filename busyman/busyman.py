@@ -33,3 +33,4 @@ for test in range(t):
         X.append((primerCoord,segCoord))
     print(i_am_very_busy(N, X))
  
+
