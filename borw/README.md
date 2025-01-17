@@ -29,5 +29,5 @@ En cada caso se actualiza el valor de `dp[i][ultB][ultN]` tomando el mínimo ent
 El caso base es `i = N`.
 
 ### Resultado final
-Devuelvo el valor mínimo de `dp[0].
+Devuelvo el valor mínimo de `dp[0]`.
 
