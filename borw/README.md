@@ -15,7 +15,7 @@ Resuelvo este problema utilizando **programación dinámica bottom-up**. Como es
 - `ultB` es el índice del último número pintado de negro
 - `ultN` es el índice del último número pintado de blanco <br>
 <br>
-El valor almacenado en `dp[i][ultB][ultN]` representa el número mínimo de elmeentos qe quedarían sin pintar si estamos en el estado `i` y los últimos números pinrados de blanco y negro son `ultB y `ultN` respectivamente.<br>
+El valor almacenado en `dp[i][ultB][ultN]` representa el número mínimo de elmeentos qe quedarían sin pintar si estamos en el estado `i` y los últimos números pinrados de blanco y negro son `ultB` y `ultN` respectivamente. <br>
 
 ### Transición entre estados
 Para cada número de la secuencia, se consideran 4 posibilidades: <br>
