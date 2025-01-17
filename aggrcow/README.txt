@@ -1,4 +1,4 @@
-# Aggresive cows 
+#Aggresive cows 
 
 ## Descripción del problema 
 Se tiene un número de establos alineados en una línea, cada uno con una posición distinta. Queremos ubicar a un número dado de vacas en estos establos, de tal manera que la distancia mínima entre dos vacas cualquiera sea lo mayor posible.
