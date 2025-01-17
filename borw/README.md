@@ -4,7 +4,7 @@
 
 Se tiene una secuencia de números y se debe asignar un color a cada número: negro, blanco o sin pintar. Las restricciones son: <br>
 - Los números pintados de negro deben quedar en orden ascendente estrictamente
-- Los números pintados de blanco deben quedar en orden descendente estrictamente <br>
+- Los números pintados de blanco deben quedar en orden descendente estrictamente
 <br>
 El objetivo es tratar de minimizar el número de números que quedan sin pintar, respetando estas restricciones.
 
