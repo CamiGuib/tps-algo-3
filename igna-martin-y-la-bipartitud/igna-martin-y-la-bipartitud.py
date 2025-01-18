@@ -49,6 +49,7 @@ return part_impar * part_par - (n-1); // Todas las aristas que tendria un grafo 
 
 
 int main() {
+// Leemos los inputs e imprimimos los outputs
 int n;
 while (cin >> n) { // Leemos el número de nodos
     if (n == 0) break; // Si n es 0, terminamos el programa
