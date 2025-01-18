@@ -22,10 +22,10 @@ El valor almacenado en ``dp[i][ultB][ultN]`` representa el número mínimo de el
 
 ### Transición entre estados
 Para cada número de la secuencia, se consideran 4 posibilidades:
-1. Si es válido pintar de blanco y negro.
-2. Si solo es válido pintar de blanco.
-3. Si solo es válido pintar de negro.
-4. Si no es viable pintar ni de blanco ni de negro.
+1. Es válido pintar de blanco y negro.
+2. Solo es válido pintar de blanco.
+3. Solo es válido pintar de negro.
+4. No es viable pintar ni de blanco ni de negro.
 
 En cada caso, se actualiza el valor de ``dp[i][ultB][ultN]`` tomando el mínimo entre las opciones disponibles.
 
