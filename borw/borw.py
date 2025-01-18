@@ -7,7 +7,6 @@
 using namespace std;
 
 
-
 /*
 Idea: 
 - Resuelvo con programacion dinamica bottom-up usando una matriz de memoizacion dp[i][ultB][ultN], donde i es el indice del numero que estamos mirando, ultB el indice del ultimo numero pintado de blanco
@@ -18,8 +17,7 @@ numero blanco a ultN y como ultimo numero negro a ultN.
 - El caso base es i = N
 - El resultado es el minimo valor de dp[0]
 */ 
- 
- 
+  
  
 int borw(int N, vector<int> v) {
     
