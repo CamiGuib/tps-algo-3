@@ -5,14 +5,12 @@
 using namespace std;
 
 
-
 /*
 Idea: 
 - El arbol se representa como una lista de adyacencias G con n nodos.
 - Se realiza BFS desde un nodo raiz para dividir los nodos del grafo en dos conjuntos: part_par (nodos a distancia par del nodo raiz) y part_impar (nodos a distancia impar del nodo raiz).
 - Calculo cuantas aristas tendria un grafo completo de |part_par| nodos en la particion part_par y |part_impar| en la particion part_impar y a eso le resto el numero de aristas del grafo original. Eso seria la respuesta.
 */ 
-
 
 
 long long cuantas_aristas_para_ser_bip_completo(vector<vector<int>>& G, int n) {
