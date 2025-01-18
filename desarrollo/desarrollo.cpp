@@ -1,7 +1,8 @@
 /*
-Me base en la idea del algoritmo de Floyd-Warshall. Fui agregando las esquinas en el mismo orden en el que fueron agregadas historicamente, y cada vez que agregue una esquina me fije si cada una de las distancias nodo-nodo mejoraban o no al considerar que paso por esa esquina nueva.
-De esa forma para cada esquina k agregada fui actualizando una matriz M[i][j] con las mejores distancias nodo i - nodo j encontradas hasta el momento.
-Y para cada una de esas matrices M calcule la suma de todos sus valores.
+Idea:
+- Me base en la idea del algoritmo de Floyd-Warshall. Fui agregando las esquinas en el mismo orden en el que fueron agregadas historicamente, y cada vez que agregue una esquina me fije si cada una de las distancias nodo-nodo mejoraban o no al considerar que paso por esa esquina nueva.
+- De esa forma para cada esquina k agregada fui actualizando una matriz M[i][j] con las mejores distancias nodo i - nodo j encontradas hasta el momento.
+- Y para cada una de esas matrices M calcule la suma de todos sus valores.
 */
 
 
