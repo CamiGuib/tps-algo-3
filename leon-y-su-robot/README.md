@@ -8,5 +8,5 @@ El objetivo es encontrar el mínimo costo que podría pagar León al unir todasl
 ## Enfoque de la solución 
 
 - Armo un grafo `G` (implementado como una lista de adyacencias) donde cada nodo representa una pieza y cada arista `(u,v)` representa la mejor oferta especial que hubiera entre la pieza `u` y la pieza `v`.
-- Corro el **algoritmo de Prim** con cola de prioridad sobre el grafo para obtener el árbol generador mínimo (AGM). Durante la ejecución del algoritmo se tienen en cuenta tanto las mejores ofertas especiales (las presentes en el grafo) como los costos tradicionales dados por `a[u] + a[j]`.
+- Corro el **algoritmo de Prim** con cola de prioridad sobre el grafo para obtener el árbol generador mínimo (AGM). Durante la ejecución del algoritmo se tienen en cuenta tanto las mejores ofertas especiales (las presentes en el grafo) como los costos tradicionales dados por `a[i] + a[j]`.
 - Retorno la suma total de todos los costos de todas las aristas del AGM, que sería la respuesta del problema.
