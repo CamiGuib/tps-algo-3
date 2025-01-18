@@ -32,13 +32,3 @@ El caso base es cuando ``i = N``.
 
 ### Resultado final
 Devuelvo el valor mínimo de ``dp[0]``.
-
----
-
-En esta parte:
-
-- ``i`` es el índice del número que se está mirando.
-- ``ultB`` es el índice del último número pintado de negro.
-- ``ultN`` es el índice del último número pintado de blanco.
-
-El valor almacenado en ``dp[i][ultB][ultN]`` representa el número mínimo de elementos que quedarían sin pintar si estamos en el estado ``i`` y los últimos números pintados de blanco y negro son ``ultB`` y ``ultN``, respectivamente.
