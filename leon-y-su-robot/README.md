@@ -7,6 +7,6 @@ El objetivo es encontrar la forma de conectar todas las piezas con el mínimo co
 
 ## Enfoque de la solución 
 
-- Modelo al problema como un grafo G (implementado como una lista de adyacencias) donde cada nodo representa una pieza y cada arista `(u,v)` representa el costo mínimo de unir la pieza `u` con la pieza `v` (considerando el costo tradicional `a[u] + a[v]` y considerando las ofertas especiales de unir la pieza `u` con la pieza `v`, si la hubiera). Nótese que el grafo será completo y no habrán aristas múltiples (es decir, hay una y solo una arista entre nodo y nodo).
+- Modelo al problema como un grafo G (implementado como una lista de adyacencias) donde cada nodo representa una pieza y cada arista `(u,v)` representa el costo mínimo de unir la pieza `u` con la pieza `v` (considerando el costo tradicional `a[u] + a[v]` y considerando las ofertas especiales de unir la pieza `u` con la pieza `v`, si las hubieras). Nótese que el grafo será completo y no habrán aristas múltiples (es decir, hay una y solo una arista entre nodo y nodo).
 - Corro el algoritmo de Prim con cola de prioridad sobre el grafo para obtener el árbol generador mínimo (AGM).
 - Retorno la suma total de todos los costos del AGM, que sería la respuesta del problema.
