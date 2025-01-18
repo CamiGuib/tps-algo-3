@@ -10,10 +10,10 @@ Si existe una forma de hacer esta reorganización cuántos alumnos se mueven des
 
 ## Enfoque de la solución
 
-- Armo un grafo correspondiente a una red que contenga un sumidero s, conectado mediante ejes de valor `a[i]` 
+- Armo un grafo correspondiente a una red que contenga un sumidero `s`, conectado mediante ejes de valor `a[i]` 
 a las distintas aulas 0, 1, ..., n-1 (que serían los nodos 1, 2, ..., n). Este valor `a[i]` representa el 
-número original de alumnos que tenía cada aula i. A estas aulas las consideraré que están en la "primer capa 
-de aulas". Luego armaré una segunda capa de aulas, que contendrá a las mismas n aulas pero duplicadas (estas 
+número original de alumnos que tenía cada aula `i`. A estas aulas las consideraré que están en la "primer capa 
+de aulas". Luego armaré una segunda capa de aulas, que contendrá a las mismas `n` aulas pero duplicadas (estas 
 serán representadas por los nodos n + 1, n + 2, ..., 2 n).  
 
 - Cada aula `i` de la primer capa se conectará mediante ejes de peso `a[i]` con las aulas de la segunda capa que 
