@@ -2,11 +2,13 @@
 
 # Descripción del problema
 
-Juli quiere calcular la mínima energía necesaria para llegar desde el aula 1 a cualquier otra aula `i` en la Facultad de Ciencias Exactas. Para moverse entre aulas tiene dos opciones: 
-- Caminar normalmente: esto requiere una cantidad de energía igual a `|i-j|`, donde `j` es el aula de origen y `i` es el aula de destino.
-- Usar un atajo: cada aula i tiene un atajo unidireccional hacia otra aula a<sub>i</sub>, que cuesta exactamente 1 unidad de energía. Los atajos tienen la propiedad de que i ≤ a<sub>i</sub> ≤ n y son crecientes a<sub>i</sub> ≤ a<sub>i+1</sub>.
-<br>
+Juli quiere calcular la mínima energía necesaria para llegar desde el aula 1 a cualquier otra aula `i` en la Facultad de Ciencias Exactas. Para moverse entre aulas tiene dos opciones:
+
+1. Caminar normalmente: esto requiere una cantidad de energía igual a `|i-j|`, donde `j` es el aula de origen y `i` es el aula de destino.
+2. Usar un atajo: cada aula `i` tiene un atajo unidireccional hacia otra aula `ai`, que cuesta exactamente `1` unidad de energía. Los atajos tienen la propiedad de que `i ≤ ai ≤ n` y son crecientes `ai ≤ ai+1`.
+
 El objetivo es calcular un arreglo `m`, donde cada `m[i]` representa la energía mínima necesaria para ir desde el aula 1 hasta el aula `i`.
+
 
 # Enfoque de la solución
 
