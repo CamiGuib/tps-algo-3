@@ -10,4 +10,4 @@ El problema consiste en un árbol (grafo conexo y sin ciclos) dado con n nodos y
 
 - El árbol se representa como una lista de adyacencias `G` con `n` nodos.
 - Se realiza **BFS (Breadth First Search)** desde un nodo raíz para dividir los nodos del grafo en dos conjuntos: `part_par` (nodos a distancia par del nodo raíz) y `part_impar` (nodos a distancia impar del nodo raíz). 
-- Calculo cuántas aristas tendría un grafo completo de |part_par| nodos en la partición part_par y |part_impar| en la partición part_impar y a eso le resto el número de aristas del grafo original. Eso sería la respuesta. 
+- Calculo cuántas aristas tendría un grafo completo de `|part_par|` nodos en la partición `part_par` y `|part_impar|` en la partición `part_impar` y a eso le resto el número de aristas del grafo original. Eso sería la respuesta. 
