@@ -10,7 +10,7 @@ El objetivo es calcular un arreglo `m`, donde cada `m[i]` representa la energía
 
 # Enfoque de la solución
 
-Modelo a este problema con un grafo y utilizo el **algoritmo de Dijkstra** para encontrar el costo míinimo de energía necesaria para llegar desde el aula 1 hasta cada una de las aulas. <br> 
+Modelo a este problema con un grafo y utilizo el **algoritmo de Dijkstra** para encontrar el costo mínimo de energía necesaria para llegar desde el aula 1 hasta cada una de las aulas. <br> 
 Detallo acá:
 - Construyo grafo donde cada nodo (aula) tiene una arista hacia su aula inmediata posterior e inmediata anterior con costo 1. Los atajos se modelan como aristas adicionales de costo fijo igual a 1, según el arreglo de atajos dado. 
 - Aplico Dijkstra para calcular la distancia mínima desde el nodo 0 (aula inicial) hsta cada nodo. La estructura cola de prioridad asegura que se procesen primero los nodos con menor distancia acumulada. 
