@@ -28,7 +28,7 @@ el flujo máximo a través de esta red, entonces significa que sí pueden reacom
 pedida; si no, no. 
 
 - Debemos entonces calcular el flujo máximo a través de esa red descrita más arriba. Eso lo haré con el 
-**algoritmo de Ford-Fulkerson**. 
+**algoritmo de Ford-Fulkerson** (FF). 
 
 - Sobre el algoritmo de FF hice una modificación para que se vayan registrando los movimientos de flujo de un 
 aula hacia otra. Para ello trabajo con una matriz `flujos` tal que `flujos[i][j]` indica cuántos alumnos se 
