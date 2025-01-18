@@ -5,6 +5,7 @@
 Este problema plantea una situación en la que hay n aulas con una cantidad `ai` de estudiantes en cada una, pero las aulas tienen una capacidad máxima de `bi` estudiantes. La tarea es determinar si es posible reorganizar a los estudiantes entre las aulas para que cada una contenga exactamente `bi` estudiantes, teniendo en cuenta que algunos pares de aulas están conectados, lo que permite mover estudiantes entre ellas, de acuerdo a las siguientes reglas: 
 - un alumno puede moverse de un aula a otra si existe una conexión entre ambas (es bidireccional).
 - un alumno no puede realizar múltiples movimientos, solo uno.
+<br>
 Si existe una forma de hacer esta reorganización cuántos alumnos se mueven desde cada aula `i` hasta cada aula `j`.
 
 ## Enfoque de la solución
