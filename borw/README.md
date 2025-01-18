@@ -10,8 +10,10 @@ El objetivo es tratar de minimizar el número de números que quedan sin pintar,
 
 ## Enfoque de la solución
 
+Resuelvo este problema utilizando **programación dinámica bottom-up**. Como estructura de memoización utilizo una matriz de 3 dimensiones.
+
 ### Representación del estado
-Resuelvo este problema utilizando **programación dinámica bottom-up**. Como estructura de memoización utilizo una matriz de 3 dimensiones, ``dp[i][ultB][ultN]``, donde:
+La matriz de memoización es ``dp[i][ultB][ultN]``, donde:
 - ``i`` es el índice del número que se está mirando.
 - ``ultB`` es el índice del último número pintado de negro.
 - ``ultN`` es el índice del último número pintado de blanco.
